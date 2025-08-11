@@ -1,15 +1,15 @@
 {
-  "name": "umami",
+  "name": "osami",
   "version": "2.19.0",
-  "description": "A modern, privacy-focused alternative to Google Analytics.",
-  "author": "Umami Software, Inc. <hello@umami.is>",
+  "description": "A modern, privacy-focused analytics platform. Developed by Imoogle.",
+  "author": "Imoogle",
   "license": "MIT",
-  "homepage": "https://umami.is",
+  "homepage": "https://imoogle.com/osami",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/umami-software/umami.git"
+  "type": "git",
+  "url": "https://github.com/imoogle/osami.git"
   },
-  "scripts": {
+"scripts": {
     "dev": "next dev",
     "dev-turbo": "next dev -p 3000 --turbopack",
     "build": "npm-run-all check-env build-db check-db build-tracker build-geo build-app",

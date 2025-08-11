@@ -1,9 +1,9 @@
 {
-  "name": "Umami",
-  "description": "Umami is a simple, fast, website analytics alternative to Google Analytics.",
+  "name": "Osami",
+  "description": "Osami is a simple, fast, privacy-focused analytics platform developed by Imoogle.",
   "keywords": ["analytics", "charts", "statistics", "web-analytics"],
-  "website": "https://umami.is",
-  "repository": "https://github.com/umami-software/umami",
+  "website": "https://imoogle.com/osami",
+  "repository": "https://github.com/imoogle/osami",
   "addons": ["heroku-postgresql"],
   "env": {
     "APP_SECRET": {
