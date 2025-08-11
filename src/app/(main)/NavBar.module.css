@@ -3,12 +3,11 @@
   grid-template-columns: max-content 1fr 1fr;
   position: relative;
   align-items: center;
-  height: 64px;
-  background: linear-gradient(90deg, #0f172a, #111827);
+  height: 60px;
+  background: var(--base75);
   border-bottom: 1px solid var(--base300);
-  padding: 0 24px;
+  padding: 0 20px;
   z-index: 200;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 .logo {
@@ -16,10 +15,8 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  font-size: 18px;
-  font-weight: 800;
-  letter-spacing: 0.2px;
-  color: #e5e7eb;
+  font-size: 16px;
+  font-weight: 700;
   min-width: 0;
 }
 
@@ -36,18 +33,18 @@
 .links a,
 .links a:active,
 .links a:visited {
-  color: #cbd5e1;
+  color: var(--font-color200);
   line-height: 60px;
   border-bottom: 2px solid transparent;
 }
 
 .links a:hover {
-  color: #f9fafb;
+  color: var(--font-color100);
   border-bottom: 2px solid var(--primary400);
 }
 
 .links a.selected {
-  color: #f9fafb;
+  color: var(--font-color100);
   border-bottom: 2px solid var(--primary400);
 }
 
