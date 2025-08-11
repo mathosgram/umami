@@ -12,10 +12,11 @@
 }
 
 .title {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 800;
   text-align: center;
-  margin: 30px 0;
+  margin: 30px 0 14px;
+  letter-spacing: 0.2px;
 }
 
 .icon {
@@ -23,8 +24,9 @@
 }
 
 .icon svg {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
+  color: var(--primary400);
 }
 
 .button {
